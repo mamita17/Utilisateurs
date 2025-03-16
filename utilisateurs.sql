@@ -19,21 +19,7 @@ SET time_zone = "+00:00";
 
 --
 -- Base de données : `utilisateurs`
---
 
--- --------------------------------------------------------
-
---
--- Structure de la table `people`
---
--- Erreur de lecture de structure pour la table utilisateurs.people : #1932 - Table &#039;utilisateurs.people&#039; doesn&#039;t exist in engine
--- Erreur de lecture des données pour la table utilisateurs.people : #1064 - Erreur de syntaxe près de &#039;FROM `utilisateurs`.`people`&#039; à la ligne 1
-
--- --------------------------------------------------------
-
---
--- Structure de la table `users`
---
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
